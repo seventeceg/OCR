@@ -19,8 +19,8 @@ for dir_path in [INPUT_DIR, OUTPUT_DIR, TEMP_DIR, LOGS_DIR, MODELS_DIR]:
     dir_path.mkdir(parents=True, exist_ok=True)
 
 # Google Drive Configuration
-GOOGLE_DRIVE_FOLDER_ID = os.getenv("GOOGLE_DRIVE_FOLDER_ID", "")
-GOOGLE_CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH", "credentials.json")
+GOOGLE_DRIVE_FOLDER_ID = os.getenv("GOOGLE_DRIVE_FOLDER_ID", "1ErvlZ739ZMK8gMj-0xkIujtjnpWSs1H2")
+GOOGLE_CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH", "client.json")
 GOOGLE_TOKEN_PATH = "token.pickle"
 
 # OCR Engine Settings

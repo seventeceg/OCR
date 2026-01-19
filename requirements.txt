@@ -16,7 +16,7 @@ scikit-image==0.22.0
 # Deep Learning
 torch==2.2.0
 torchvision==0.17.0
-transformers==4.37.2
+transformers==4.53.0
 
 # Google Drive Integration
 google-auth==2.27.0

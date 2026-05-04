@@ -10,7 +10,7 @@ pikepdf==8.10.1
 
 # Image Processing
 opencv-python==4.9.0.80
-Pillow==10.2.0
+Pillow==12.2.0
 scikit-image==0.22.0
 
 # Deep Learning
